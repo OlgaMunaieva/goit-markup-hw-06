@@ -378,20 +378,37 @@
             </div>
             <form class="footer-form">
                 <p>Підпишіться на розсилку</p>
-                <label class="footer-lable" for="mail">
-                    <input class="footer-input" type="email" name="mail" id="mail" placeholder="E-mail">
-                    <button class="footer-button" type="submit"></button>
+                <label class="footer-label">
+                    <input class="footer-input" type="email" name="mail" placeholder="E-mail">
+                    <button class="footer-button button" type="submit">Підписатися
+                        <svg class="footer-btn-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
                 </label>
             </form>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button type="button" class="modal-btn button" data-modal-close>
                 <svg width="11" height="11">
                     <use href="./images/icons.svg#icon-cross"></use>
                 </svg>
             </button>
+            <form class="modal-form">
+                <p>Залиште свої дані, ми вам передзвонимо</p>
+                <ul>
+                    <li class="modal-item list"><label for="modal-imput-name"></label><input type="text" name="name"
+                            id="modal-imput-name" placeholder=" "></li>
+                    <li class="modal-item list"><label for="modal-imput-tel"></label><input type="tel" name="tel"
+                            id="modal-imput-tel" placeholder=" "></li>
+                    <li class="modal-item list"><label for="modal-imput-email"></label><input type="email" name="email"
+                            id="modal-imput-email" placeholder=" "></li>
+                    <li class="modal-item list"><label for="modal-imput-comment"></label><input type="text"
+                            name="comment" id="modal-imput-comment" placeholder=" "></li>
+                </ul>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>

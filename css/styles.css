@@ -603,6 +603,10 @@ header {
     margin-bottom: 20px;
 }
 
+.footer-second-part {
+    margin-right: 93px;
+}
+
 .footer .team-cos-list {
     margin-left: 0;
     margin-right: 0;
@@ -660,6 +664,48 @@ header {
 
 .address-item:not(:last-child) {
     margin-bottom: 9px;
+}
+
+.footer-form>p {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--primary-text-color-opposit);
+
+    margin-bottom: 20px;
+}
+
+.footer-input {
+    display: block;
+    align-items: center;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color-opposit);
+    background-color: var(--secondary-background-color-opposit);
+
+    min-width: 358px;
+    height: 50px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.footer-form>label {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.footer-button {
+    display: block;
+    min-width: 200px;
+    height: 50px;
 }
 
 /* ----------- Модальне вікно -------------------- */

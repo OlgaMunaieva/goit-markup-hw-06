@@ -700,6 +700,11 @@ header {
     border-radius: 4px;
 }
 
+.footer-input:focus-visible {
+    outline-color: var(--color-accent);
+}
+
+
 .footer-form>label {
     display: flex;
     flex-direction: row;
@@ -916,7 +921,6 @@ textarea::placeholder {
 .input-check:checked+.check-text span {
     border: none;
     fill: var(--color-accent);
-    /* stroke: var(--primary-text-color-opposit); */
 }
 
 .check-text a {
